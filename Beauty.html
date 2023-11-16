@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <title>Shopping Beauty</title>
+    <link rel="stylesheet" href="beauty.css">
+    <link rel="stylesheet" href="mediaq.css">
+    
+</head>
+<body>
+     <section class="nav">
+        <a href="" class="logo"><img src="./assets/humans/lady.png" alt=""></a>
+        <ul class="navlist">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#products"onclick="location.href='./#products'">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="nav-icons">
+            <span class="material-symbols-outlined">
+                search
+                </span>
+            <span class="material-symbols-outlined">
+                shopping_cart
+                </span>
+        </div>
+        <div class="menu"><i class='bx bx-menu-alt-right' ></i></div>
+        <!-- <div class="menu"><i class="fa-light fa-bars"></i></div> -->
+     </section>
+
+    <!------HOME SECTION------>
+     <section class="home">
+        <!-- Swiper -->
+        <div class="swiper mySwiper home-swiper row container">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide row flex">
+                <div class="home-content">
+                    <div>
+                        <h1>The ultimate cosmetic store</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, blanditiis possimus! Quasi maiores expedita nulla nostrum repellendus
+                         doloribus repellendus tempore pariatur consequuntur!</p>
+                        <a href="" class="main-btn active">shop now</a>
+                    </div>
+                </div>
+                <div class="home-img row">
+                    <img src="./assets/humans/woman-no-bg.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide row flex">
+                <div class="home-content">
+                    <div>
+                        <h1>The ultimate cosmetic store</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, blanditiis possimus! Quasi maiores expedita nulla nostrum repellendus
+                        t vitae doloribus repellendus tempore pariatur consequuntur!</p>
+                        <a href="" class="main-btn active">shop now</a>
+                    </div>
+                </div>
+                <div class="home-img row">
+                    <img src="./assets/humans/woman-no-bg2.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide row flex">
+                <div class="home-content">
+                    <div>
+                        <h1>The ultimate cosmetic store</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, blanditiis possimus! Quasi maiores expedita nulla nostrum repellendus
+                        tempore pariatur consequuntur!</p>
+                        <a href="" class="main-btn active">shop now</a>
+                    </div>
+                </div>
+                <div class="home-img row">
+                    <img src="./assets/humans/woman-no-bg.png" alt="">
+                </div>
+            </div>
+            
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+     </section> 
+
+     <!------PRODUCTS SECTION-------->
+
+     <section class="Products container">
+        <div class="row flex">
+            <div class="p-content">
+                <h3>For women</h3>
+                <h5>700+ Products</h5>
+            </div>
+            <div class="image"><a href=""><img src="./assets/humans/woman3.jpg" alt=""></a></div>
+        </div>
+        <div class="row flex">
+            <div class="p-content">
+                <h3>For Men</h3>
+                <h5>7500+ Products</h5>
+            </div>
+            <div class="image"><a href=""><img src="./assets/humans/man1.jpg" alt=""></a></div>
+        </div>
+        <div class="row flex">
+            <div class="p-content">
+                <h3>For women</h3>
+                <h5>145+ Products</h5>
+            </div>
+            <div class="image"><a href=""><img src="./assets/humans/woman5.jpg" alt=""></a></div>
+        </div>
+     </section>
+
+<!----------SWIPER PRODUCTS---------->  
+     <!-- Swiper -->
+  <div class="swiper mySwiper p-swiper container" id="products" location.href='./#products'>
+    <div class="slider-content row">
+        <div class="heading">
+            <h2>Updated Deals</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, blanditiis possimus! 
+            Quasi maiores expedita nulla nostrum repellendus</p>
+        </div>
+        <div class="arrow row">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide column">
+            <div class="s-img row">
+                <img src="./assets/products/productlips4.jpg" alt="">
+                <div class="tag">Hot</div>
+            </div>
+            <div>
+                <h4>Concealer</h4>
+                <div class="price row">
+                    <h6>$30</h6>
+                    <h6><s>$40</s></h6>
+                </div>
+            </div>
+            <div class="btns row">
+                <a href="" class="main-btn">Add to cart</a>
+                <div class="fav row">
+                    <a href=""><span class="material-symbols-outlined">
+                        favorite
+                        </span></a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide column">
+            <div class="s-img row">
+                <img src="./assets/products/explore-img5.jpg" alt="">
+                <div class="tag">Hot</div>
+            </div>
+            <div>
+                <h4>Nivea Primer</h4>
+                <div class="price row">
+                    <h6>$35</h6>
+                    <h6><s>$48</s></h6>
+                </div>
+            </div>
+            <div class="btns row">
+                <a href="" class="main-btn">Add to cart</a>
+                <div class="fav row">
+                    <a href=""><span class="material-symbols-outlined">
+                        favorite
+                        </span></a>
+                </div>
+            </div>
+        </div> 
+        <div class="swiper-slide column">
+            <div class="s-img row">
+                <img src="./assets/products/special-img2.jpg" alt="">
+                <div class="tag">Hot</div>
+            </div>
+            <div>
+                <h4>CeraVe lite</h4>
+                <div class="price row">
+                    <h6>$28</h6>
+                    <h6><s>$35</s></h6>
+                </div>
+            </div>
+            <div class="btns row">
+                <a href="" class="main-btn">Add to cart</a>
+                <div class="fav row">
+                    <a href=""><span class="material-symbols-outlined">
+                        favorite
+                        </span></a>
+                </div>
+            </div>
+        </div> 
+        <div class="swiper-slide column">
+            <div class="s-img row">
+                <img src="./assets/products/explore-img1.jpg" alt="">
+                <div class="tag">Hot</div>
+            </div>
+            <div>
+                <h4>Moisturizer Simple</h4>
+                <div class="price row">
+                    <h6>$45</h6>
+                    <h6><s>$60</s></h6>
+                </div>
+            </div>
+            <div class="btns row">
+                <a href="" class="main-btn">Add to cart</a>
+                <div class="fav row">
+                    <a href=""><span class="material-symbols-outlined">
+                        favorite
+                        </span></a>
+                </div>
+            </div>
+        </div> 
+        <div class="swiper-slide column">
+            <div class="s-img row">
+                <img src="./assets/products/single-product6.jpg" alt="">
+                <div class="tag">Hot</div>
+            </div>
+            <div>
+                <h4>Face powder Lotion</h4>
+                <div class="price row">
+                    <h6>$59</h6>
+                    <h6><s>$65</s></h6>
+                </div>
+            </div>
+            <div class="btns row">
+                <a href="" class="main-btn">Add to cart</a>
+                <div class="fav row">
+                    <a href=""><span class="material-symbols-outlined">
+                        favorite
+                        </span></a>
+                </div>
+            </div>
+        </div> 
+        <div class="swiper-slide column">
+            <div class="s-img row">
+                <img src="./assets/products/special-img1.jpg" alt="">
+                <div class="tag">Hot</div>
+            </div>
+            <div>
+                <h4>CC Cream</h4>
+                <div class="price row">
+                    <h6>$35</h6>
+                    <h6><s>$47</s></h6>
+                </div>
+            </div>
+            <div class="btns row">
+                <a href="" class="main-btn">Add to cart</a>
+                <div class="fav row">
+                    <a href=""><span class="material-symbols-outlined">
+                        favorite
+                        </span></a>
+                </div>
+            </div>
+        </div> 
+    </div>
+   
+    <div class="swiper-pagination"></div>
+  </div>
+
+<!-----ABOUT SECTION------>
+     <section class="about">
+        <div class="about-content row flex container">
+            <div class="a-image row"><img src="./assets/humans/woman2.jpeg" alt=""></div>
+            <div class="content">
+                <h2>About Our Products</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vitae itaque expedita id officiis
+                     neque quia pariatur quod! Ipsam, impedit architecto veritatis
+                    iure rerum eum nemo laudantium harum rem iste?</p>
+                    <a href="">Read More</a>
+            </div>
+        </div>
+     </section>
+ <!------OFFER SECTION------>
+    <div class="swiper mySwiper p-swiper container">
+        <div class="slider-content row">
+            <div class="heading">
+                <h2>Updated Deals</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, blanditiis possimus! 
+                Quasi maiores expedita nulla nostrum repellendus</p>
+            </div>
+            <div class="arrow row">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide column">
+                <div class="s-img row">
+                    <img src="./assets/products/new-arrival2.jpg" alt="">
+                    <div class="tag">Hot</div>
+                </div>
+                <div>
+                    <h4>L.A. Girl Pro Coverage</h4>
+                    <div class="price row">
+                        <h6>$39</h6>
+                        <h6><s>$50</s></h6>
+                    </div>
+                </div>
+                <div class="btns row">
+                    <a href="" class="main-btn">Add to cart</a>
+                    <div class="fav row">
+                        <a href=""><span class="material-symbols-outlined">
+                            favorite
+                            </span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide column">
+                <div class="s-img row">
+                    <img src="./assets/products/new-arrivals1.jpg" alt="">
+                    <div class="tag">Hot</div>
+                </div>
+                <div>
+                    <h4>L.A. Girl lite Coverage</h4>
+                    <div class="price row">
+                        <h6>$29</h6>
+                        <h6><s>$45</s></h6>
+                    </div>
+                </div>
+                <div class="btns row">
+                    <a href="" class="main-btn">Add to cart</a>
+                    <div class="fav row">
+                        <a href=""><span class="material-symbols-outlined">
+                            favorite
+                            </span></a>
+                    </div>
+                </div>
+            </div> 
+            <div class="swiper-slide column">
+                <div class="s-img row">
+                    <img src="./assets/products/special-img5.jpg" alt="">
+                    <div class="tag">Hot</div>
+                </div>
+                <div>
+                    <h4>Flormar Fusion</h4>
+                    <div class="price row">
+                        <h6>$30</h6>
+                        <h6><s>$41</s></h6>
+                    </div>
+                </div>
+                <div class="btns row">
+                    <a href="" class="main-btn">Add to cart</a>
+                    <div class="fav row">
+                        <a href=""><span class="material-symbols-outlined">
+                            favorite
+                            </span></a>
+                    </div>
+                </div>
+            </div> 
+            <div class="swiper-slide column">
+                <div class="s-img row">
+                    <img src="./assets/products/eyelasyh-img4.jpeg" alt="">
+                    <div class="tag">Hot</div>
+                </div>
+                <div>
+                    <h4>Essence Revolution</h4>
+                    <div class="price row">
+                        <h6>$70</h6>
+                        <h6><s>$105</s></h6>
+                    </div>
+                </div>
+                <div class="btns row">
+                    <a href="" class="main-btn">Add to cart</a>
+                    <div class="fav row">
+                        <a href=""><span class="material-symbols-outlined">
+                            favorite
+                            </span></a>
+                    </div>
+                </div>
+            </div> 
+            <div class="swiper-slide column">
+                <div class="s-img row">
+                    <img src="./assets/products/special-img6.jpg" alt="">
+                    <div class="tag">Hot</div>
+                </div>
+                <div>
+                    <h4>Hydra Matte</h4>
+                    <div class="price row">
+                        <h6>$63</h6>
+                        <h6><s>$80</s></h6>
+                    </div>
+                </div>
+                <div class="btns row">
+                    <a href="" class="main-btn">Add to cart</a>
+                    <div class="fav row">
+                        <a href=""><span class="material-symbols-outlined">
+                            favorite
+                            </span></a>
+                    </div>
+                </div>
+            </div> 
+            <div class="swiper-slide column">
+                <div class="s-img row">
+                    <img src="./assets/products/eyelasyh-img2.jpg" alt="">
+                    <div class="tag">Hot</div>
+                </div>
+                <div>
+                    <h4>Makeup Buff Set</h4>
+                    <div class="price row">
+                        <h6>$75</h6>
+                        <h6><s>$110</s></h6>
+                    </div>
+                </div>
+                <div class="btns row">
+                    <a href="" class="main-btn">Add to cart</a>
+                    <div class="fav row">
+                        <a href=""><span class="material-symbols-outlined">
+                            favorite
+                            </span></a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    
+        <div class="swiper-pagination"></div>
+    </div> 
+ <!------TESTIMONIAL SECTION------>
+     <section class="testimonial">
+        <div class="row flex container">
+            <div class="swiper myswiper testimonial-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="image row"><img src="./assets/humans/Image6.jpg" alt=""></div>
+                        <fieldset>
+                            <legend><span class="material-symbols-outlined">
+                                format_quote
+                                </span></legend>
+                            <div class="qoute-column">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. quaerat id soluta cum nostrum.</p>
+                                <h4>Bella Honeyia</h4>
+                            </div>
+
+                        </fieldset>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image row"><img src="./assets/humans/Image5.jpg " alt=""></div>
+                        <fieldset>
+                            <legend><span class="material-symbols-outlined">
+                                format_quote
+                                </span></legend>
+                            <div class="qoute-column">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem in quia magnam.
+                                   bus nemo animi qui vitae quaerat id soluta cum nostrum.</p>
+                                <h4>Edward collins</h4>
+                            </div>
+
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="slider-content row">
+                    <div class="arrow row">
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="heading">
+                <h2>Buyer Reviews</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem in quia magnam. 
+                    Consectetur quod voluptatum et illum, molestias Consectetur quod voluptatum et illum, molestias
+                    Consectetur quod voluptatum et illum, molestias</p>
+            </div>
+        </div>
+     </section>
+
+ <!------SUBSCRIBLE SECTION------>     
+     <section class="subscrible">
+        <div class="subscribler row container">
+            <div class="subcrible-content">
+                <h2>Subscrible for latest deals</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias culpa odit
+                mollitia deserunt possimus aut rerum, nam ad error blanditiis</p>
+                <form action="" class="row">
+                    <input type="email" name="email" id="" placeholder="Enter your Email">
+                    <button type="button" class="main-btn active">Subscrible</button>
+                </form>
+            </div>
+        </div>
+     </section>
+
+ <!------LOGOS SECTION------>      
+     <section class="logos">
+        <div class="logo-content column container">
+            <div class="row"><img src="./assets/Siemens-logo.png" alt=""></div>
+            <div class="row"><img src="./assets/Staples_logo.png" alt=""></div>
+            <div class="row"><img src="./assets/Tesco-logo.png" alt=""></div>
+            <div class="row"><img src="./assets/Gartner_logo.png" alt=""></div>
+        </div>
+     </section>
+   
+ <!------GALLERY SECTION------>   
+ <section class="gallery">
+    <div class="gallery-content row flex">
+        <div class="content">
+            <h2>Follow us on social media</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos,
+                impedit quam assumenda qui illo soluta assumenda suscipit?</p>
+        </div>
+        <div class="gallery-images column">
+            <div class="row"><img src="./assets/humans/man1.jpg" alt=""></div>
+            <div class="row"><img src="./assets/humans/woman3.jpg" alt=""></div>
+            <div class="row"><img src="./assets/humans/man2.jpg" alt=""></div>
+            <div class="row"><img src="./assets/humans/woman5.jpeg" alt=""></div>
+            <div class="row"><img src="./assets/humans/man3.jpg" alt=""></div>
+            <div class="row"><img src="./assets/humans/woman6.jpg" alt=""></div>
+            <div class="row"><img src="./assets/humans/man1.jpg" alt=""></div>
+            <div class="row"><img src="./assets/humans/woman2.jpeg" alt=""></div>
+            <div class="row"><img src="./assets/humans/woman6.jpg" alt=""></div>
+            <div class="row"><img src="./assets/humans/man1.jpg" alt=""></div>
+            
+        </div>
+    </div>
+ </section>
+
+ <footer>
+    <div class="container">
+        <div class="footer row">
+            <div class="footer-content">
+                <a href="" class="logo"><img src="./assets/humans/lady.png" alt=""></a>
+                <p> Voluptates totam leioasbdolienlxn askcdjb aldwlsxc Voluptates totam leioasbdolienlxn askcdjb</p>
+                 <div class="social-links row">
+                    <a href=" https://github.com/EJP-zephyr"><i class='bx bxl-github'></i></a>
+                    <a href="https://twitter.com/zephyr_pj_dev"><i class='bx bxl-twitter' ></i></i></a>
+                    <a href="https://www.linkedin.com/feed/ "><i class='bx bxl-linkedin' ></i></i></a>
+                    <a href="https://www.facebook.com"><i class='bx bxl-facebook-circle' ></i></a>
+                 </div>
+            </div>
+            <div>
+                <h3>Quick links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        
+            <div class="Important">
+                <h3>Important links</h3>
+                <ul>
+                    <li><a href="#">My account</a></li>
+                    <li><a href="#">My cart</a></li>
+                    <li><a href="#">My wishlist</a></li>
+                    <li><a href="#">FAQ's</a></li>
+                    <li><a href="#">Terms of services</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Contact Us</h3>
+                <a href="#"><i class='bx bxs-city' ></i>m.b.New York, Chijiago</a>
+                <a href="#"><i class='bx bx-phone-call' ></i>+9210002311</a>
+                <a href="#"><i class='bx bxs-envelope' ></i>beautyxz@gmail.com</a>
+            </div>
+        </div>
+        <div class="copyright">Created by <a href="">@Joncheremei</a>2023 all rights reserved</div>
+    </div>
+ </footer>
+ 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="beauty.js"></script>
+</body>
+</html>
